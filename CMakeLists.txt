@@ -5,6 +5,9 @@
 # Set the name of the project and target:
 SET(TARGET "main")
 
+
+add_definitions(-DCMAKE_EXPORT_COMMANDS=ON)
+
 # Declare all source files the target consists of. Here, this is only
 # the one step-X.cc file, but as you expand your project you may wish
 # to add other source files as well. If your project becomes much larger,
@@ -37,3 +40,4 @@ ENDIF()
 DEAL_II_INITIALIZE_CACHED_VARIABLES()
 PROJECT(${TARGET})
 DEAL_II_INVOKE_AUTOPILOT()
+
