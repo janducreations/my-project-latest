@@ -903,6 +903,7 @@ namespace PhaseField
     TrilinosWrappers::MPI::Vector                solution_update; // another vector containing the displacement soln
 
 
+
     const unsigned int               degree_eta; // degree of polynomial for eta
     FE_Q<dim>                      fe_eta;  // fe object for eta
     DoFHandler<dim>                 dof_handler_eta; //another dof_handler for eta
@@ -1055,6 +1056,8 @@ namespace PhaseField
                                             /*direction*/ 2,
                                             periodicity_vector);
       triangulation.add_periodicity(periodicity_vector);
+
+      
 
 // mesh refinement
       triangulation.refine_global (parameters.refinement);
