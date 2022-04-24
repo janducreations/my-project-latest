@@ -2299,6 +2299,7 @@ std::vector< std::vector< Vector<double> > >
 
         Utilities::MPI::MPI_InitFinalize mpi_initialization(argc, argv, 1);
 
+
         Solid<3> solid_3d("parameters.prm");
         solid_3d.run();
       }

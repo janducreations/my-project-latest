@@ -1,0 +1,10 @@
+/workspace/my-project-latest/build/CMakeFiles/edit_cache.dir
+/workspace/my-project-latest/build/CMakeFiles/rebuild_cache.dir
+/workspace/my-project-latest/build/CMakeFiles/info.dir
+/workspace/my-project-latest/build/CMakeFiles/strip_comments.dir
+/workspace/my-project-latest/build/CMakeFiles/distclean.dir
+/workspace/my-project-latest/build/CMakeFiles/runclean.dir
+/workspace/my-project-latest/build/CMakeFiles/main.dir
+/workspace/my-project-latest/build/CMakeFiles/debug.dir
+/workspace/my-project-latest/build/CMakeFiles/run.dir
+/workspace/my-project-latest/build/CMakeFiles/release.dir
