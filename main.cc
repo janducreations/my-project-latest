@@ -1768,7 +1768,8 @@ template <int dim>
     for (; cell!=endc; ++cell, ++cell_eta)
         if (cell->is_locally_owned())
         {
-            PointHistory<dim> *lqph =
+   
+   -         PointHistory<dim> *lqph =
               reinterpret_cast<PointHistory<dim>*>(cell->user_pointer());
 
             Assert(lqph >= &quadrature_point_history.front(), ExcInternalError());
@@ -1797,6 +1798,7 @@ template <int dim>
        }
 
   }
+
   //////////////////////////////
 // Solving mechanical equilibrium equation
   template <int dim>
@@ -2317,6 +2319,7 @@ std::vector< std::vector< Vector<double> > >
       }
     catch (...)
       {
+        
         std::cerr << std::endl << std::endl
                   << "----------------------------------------------------"
                   << std::endl;
